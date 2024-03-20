@@ -1,6 +1,6 @@
 
 const express = require('express');//le module express
-const dotenv = require('dotenv').config({ path: "config.env" });//charger les variables d'environnment
+const dotenv = require('dotenv').config({ path: "config/.env" });//charger les variables d'environnment
 const mongoose = require('mongoose');//le module mongoose
 
 
